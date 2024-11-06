@@ -1,1 +1,33 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
 
+.item {
+  display: flex;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 5px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.name,
+.number {
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: gray;
+}
