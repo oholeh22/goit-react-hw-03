@@ -1,0 +1,38 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.contactItem:last-child {
+  margin-bottom: 20px;
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.user,
+.number {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.btn {
+  background-color: #e5e5e5;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  cursor: pointer;
+  border: 1px solid #000;
+}
